@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Shark Territory" max_length="40" name="x_cdltd_shark_terr_shark_territory" sizeclass="0" type="collection">
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Cage Material" max_length="20" name="cage_material" type="price"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Cage Size" max_length="40" name="cage_size" type="choice">
+            <choice/>
+        </element>
+        <element label="Divers per Cage" max_length="40" name="divers_per_cage" type="integer"/>
+        <element label="Number in Stock" max_length="40" name="number_in_stock" type="integer"/>
+    </element>
+</database>
